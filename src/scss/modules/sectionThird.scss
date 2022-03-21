@@ -124,6 +124,44 @@
 
 @media only screen and (min-width: 980px) {
   .sectionThreeContent {
-    grid-column: 3 / 13;
+    grid-column: 4 / 12;
+  }
+  .sectionThree {
+    width: 100%;
+    min-width: 1184px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    &__article {
+      width: 548px;
+      height: 300px;
+      background-image: url("../assets/img/BgBig.png");
+      &-div {
+        width: 548px;
+        height: 40px;
+        background-image: url("../assets/img/TopBgBig.png");
+      }
+    }
+  }
+
+  .sectionGit {
+    max-width: 584px;
+    &-h2 {
+      font-size: 16px;
+    }
+    &-p {
+      width: 300px;
+      font-size: 16px;
+    }
+  }
+  .content {
+    width: 550px;
+    height: 256px;
+    &-img {
+      position: relative;
+      top: 32px;
+      left: 56px;
+    }
   }
 }
