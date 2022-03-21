@@ -1,0 +1,94 @@
+.footer {
+  grid-column: 1 / 7;
+  background-color: #dbeaf7;
+  margin-top: 88px;
+  padding-bottom: 88px;
+}
+
+.sectionFour {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 64px;
+  &__article {
+    &-h1 {
+      margin: 0 0 32px 0;
+      font-family: "Nunito";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 48px;
+      color: #234361;
+    }
+    &-p {
+      margin: 0;
+      font-family: "Nunito";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 32px;
+      color: #425a70;
+    }
+    &-div {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+.article-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.article__div-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 220px;
+  margin-bottom: 60px;
+}
+
+.git {
+  display: block;
+  width: 70px;
+  height: 70px;
+  background-image: url("../assets/img/Github_icon.png");
+  background-position: center;
+}
+.insta {
+  width: 70px;
+  height: 70px;
+  background-image: url("../assets/img/Instagram_icon.png");
+  background-position: center;
+}
+.face {
+  width: 70px;
+  height: 70px;
+  background-image: url("../assets/img/Facebook_icon.png");
+  background-position: center;
+}
+
+.footer-mail {
+  width: 281px;
+  height: 48px;
+  display: block;
+  background: #4da8ff;
+  border-radius: 64px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (min-width: 980px) {
+  .footer {
+    grid-column: 1 / 15;
+  }
+}

@@ -1,0 +1,129 @@
+.sectionThreeContent {
+  grid-column: 2 / 6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__header {
+    margin-top: 64px;
+    margin-bottom: 46px;
+    &-h1 {
+      height: 80px;
+      font-family: "Nunito";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 48px;
+      text-align: center;
+      color: #234361;
+      margin: 0;
+    }
+    &-p {
+      font-family: "Nunito";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 32px;
+      text-align: center;
+      color: #425a70;
+      margin: 0;
+    }
+  }
+}
+
+.sectionThree {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__article {
+    width: 287px;
+    height: 320px;
+    background-image: url("../assets/img/Bg.png");
+    background-size: 100%;
+    margin-bottom: 24px;
+    &-div {
+      width: 287px;
+      height: 40px;
+      background-image: url("../assets/img/TopBg.png");
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+  }
+}
+
+.threeDots {
+  width: 40px;
+  height: 8px;
+  background-image: url("../assets/img/circles_top.png");
+  margin-left: 16px;
+}
+
+.content {
+  width: 287px;
+  height: 256px;
+  &-img {
+    position: relative;
+    top: 24px;
+    left: 16px;
+  }
+}
+
+.sectionGit {
+  max-width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  &-h2 {
+    display: inline-block;
+    width: 100px;
+    font-family: "Roboto Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    color: #808082;
+    margin: 0;
+    margin-right: 4px;
+    margin-bottom: 8px;
+  }
+  &-p {
+    width: 150px;
+    display: inline-block;
+    margin: 0;
+    font-family: "Roboto Mono";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+.description {
+  font-weight: 400;
+  color: #a3a3a3;
+}
+
+.title {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.link {
+  color: #14b5d0;
+  width: 150px;
+}
+
+.wrap {
+  margin-top: 48px;
+}
+
+.wrap2 {
+  margin-top: 24px;
+}
+
+@media only screen and (min-width: 980px) {
+  .sectionThreeContent {
+    grid-column: 3 / 13;
+  }
+}
