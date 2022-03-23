@@ -16,6 +16,12 @@ body {
   margin-bottom: 88px;
 }
 .blue-text {
+  font-weight: bold;
+  color: #1070ca;
+  text-decoration: none;
+}
+
+.blue-title {
   color: #1070ca;
 }
 
@@ -37,6 +43,7 @@ body {
       background-position: center;
       width: 178px;
       height: 178px;
+      border: 16px solid #f6f9fd;
       border-radius: 50%;
       margin: 34px 58px 0 58px;
     }
@@ -126,7 +133,7 @@ body {
         height: 72px;
         position: relative;
         top: -200px;
-        left: 200px;
+        left: 220px;
         background-color: #1070ca;
         border-radius: 16px;
       }
@@ -147,7 +154,7 @@ body {
     height: 22.66px;
     position: relative;
     top: -200px;
-    left: 120px;
+    left: 140px;
   }
 
   .wrapIntro {
@@ -164,5 +171,8 @@ body {
   }
   .article-mail {
     margin-bottom: 0;
+  }
+  .blue-text {
+    text-decoration: underline;
   }
 }

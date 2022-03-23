@@ -18,18 +18,12 @@
       content="https://github.com/kilerynka/portfolio-design-by-graphic"
     />
     <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
-    <meta
-      property="og:image"
-      content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png"
-    />
+    <meta property="og:image" content="https://kilerynka.io/og.jpg" />
     <link
       rel="shortcut icon"
       href="../../public/favicon.ico"
       type="image/x-icon"
     />
-
-    <!-- uncomment the line below to enable PWA  -->
-    <!-- <link rel="manifest" href="manifest.json" /> -->
   </head>
   <body>
     <section class="section-first">
@@ -46,14 +40,15 @@
           <article class="article-mail header__article">
             <h1 class="header__article-h1">
               My name is Kuba and I’m an aspiring
-              <strong class="blue-text"> Frontend developer</strong>.
+              <strong class="blue-title"> Frontend developer</strong>.
             </h1>
             <p class="header__article-p">
               You might be interested in checking the list of
-              <strong class="blue-text"> my skills</strong>. Don’t forget to
-              have a glimpse at <strong class="blue-text">my projects</strong>.
-              Currently I’m looking for a new challenges so if you have one -
-              <strong class="blue-text">contact me</strong> 😊
+              <a class="blue-text" href="#mySkills"> my skills</a>. Don’t forget
+              to have a glimpse at
+              <a class="blue-text" href="#myProjects">my projects</a>. Currently
+              I’m looking for a new challenges so if you have one -
+              <a class="blue-text" href="#contactMe">contact me</a> 😊
             </p>
             <a
               class="header__article-mail"
@@ -65,7 +60,7 @@
         </div>
       </header>
     </section>
-    <section class="section-two">
+    <section id="mySkills" class="section-two">
       <header class="section-two__header">
         <h1 class="section-two__header-h1">My Skills</h1>
       </header>
@@ -77,9 +72,11 @@
             <li>Semantic HTML5</li>
             <li>Flexbox</li>
             <li>CSS grid</li>
+            <li>CSS animations</li>
             <li>JS: Local storage</li>
             <li>JS: DOM manipulations</li>
             <li>SASS</li>
+            <li>Git</li>
           </ul>
         </article>
         <article class="section__article">
@@ -87,27 +84,28 @@
           <h2 class="section__article-h2">Know something about</h2>
           <ul class="section__article-listStyle2 section__article-list">
             <li>JavaScript ES6 + features</li>
-            <li>CSS animations</li>
             <li>Working with API</li>
             <li>NPM Scripts</li>
             <li>Progressive web apps</li>
-            <li>Git</li>
             <li>Accessibility</li>
+            <li>Figma</li>
           </ul>
         </article>
         <article class="section__article">
           <span class="section__article-emoticon">🎓</span>
           <h2 class="section__article-h2">Want to learn</h2>
           <ul class="section__article-listStyle3 section__article-list">
-            <li class="dupa">React JS</li>
+            <li>React JS</li>
             <li>Typecript</li>
             <li>Node JS</li>
             <li>Gatsby</li>
+            <li>Adobe XD</li>
+            <li>Styled Components</li>
           </ul>
         </article>
       </section>
     </section>
-    <section class="sectionThreeContent">
+    <section id="myProjects" class="sectionThreeContent">
       <header class="sectionThreeContent__header">
         <h1 class="sectionThreeContent__header-h1">Recent projects</h1>
         <p class="sectionThreeContent__header-p">
@@ -116,138 +114,9 @@
           far.
         </p>
       </header>
-      <section class="sectionThree">
-        <article class="sectionThree__article">
-          <div class="sectionThree__article-div">
-            <div class="threeDots"></div>
-          </div>
-
-          <div class="content">
-            <img class="content-img" src="../assets/img/Vector.png" alt="" />
-            <div class="wrap">
-              <section class="sectionGit">
-                <h2 class="sectionGit-h2">project:</h2>
-                <p class="title sectionGit-p name-js">in progress</p>
-              </section>
-              <section class="sectionGit">
-                <h2 class="sectionGit-h2">description:</h2>
-                <p class="description sectionGit-p description-js">
-                  in progress
-                </p>
-              </section>
-            </div>
-            <div class="wrap2">
-              <section class="sectionGit">
-                <h2 class="sectionGit-h2">demo:</h2>
-                <a
-                  class="link sectionGit-p demo-js"
-                  href="https://kilerynka.github.io/hydroapp-pwa/"
-                  >see here</a
-                >
-              </section>
-              <section class="sectionGit">
-                <h2 class="sectionGit-h2">github:</h2>
-                <a class="link sectionGit-p src-js" href="">source code </a>
-              </section>
-            </div>
-          </div>
-        </article>
-        <article class="sectionThree__article">
-          <div class="sectionThree__article-div">
-            <div class="threeDots"></div>
-          </div>
-
-          <div class="content">
-            <img class="content-img" src="../assets/img/Vector.png" alt="" />
-            <div class="wrap">
-              <section class="sectionGit">
-                <h2 class="sectionGit-h2">project:</h2>
-                <p class="title sectionGit-p name-js">in progress</p>
-              </section>
-              <section class="sectionGit">
-                <h2 class="sectionGit-h2">description:</h2>
-                <p class="description sectionGit-p description-js">
-                  in progress
-                </p>
-              </section>
-            </div>
-            <div class="wrap2">
-              <section class="sectionGit">
-                <h2 class="sectionGit-h2">demo:</h2>
-                <a class="link sectionGit-p demo-js" href="">see here</a>
-              </section>
-              <section class="sectionGit">
-                <h2 class="sectionGit-h2">github:</h2>
-                <a class="link sectionGit-p src-js" href="">source code </a>
-              </section>
-            </div>
-          </div>
-        </article>
-        <article class="sectionThree__article">
-          <div class="sectionThree__article-div">
-            <div class="threeDots"></div>
-          </div>
-
-          <div class="content">
-            <img class="content-img" src="../assets/img/Vector.png" alt="" />
-            <div class="wrap">
-              <section class="sectionGit">
-                <h2 class="sectionGit-h2">project:</h2>
-                <p class="title sectionGit-p name-js">in progress</p>
-              </section>
-              <section class="sectionGit">
-                <h2 class="sectionGit-h2">description:</h2>
-                <p class="description sectionGit-p description-js">
-                  in progress
-                </p>
-              </section>
-            </div>
-            <div class="wrap2">
-              <section class="sectionGit">
-                <h2 class="sectionGit-h2">demo:</h2>
-                <a class="link sectionGit-p demo-js" href="">see here</a>
-              </section>
-              <section class="sectionGit">
-                <h2 class="sectionGit-h2">github:</h2>
-                <a class="link sectionGit-p src-js" href="">source code </a>
-              </section>
-            </div>
-          </div>
-        </article>
-        <article class="sectionThree__article">
-          <div class="sectionThree__article-div">
-            <div class="threeDots"></div>
-          </div>
-
-          <div class="content">
-            <img class="content-img" src="../assets/img/Vector.png" alt="" />
-            <div class="wrap">
-              <section class="sectionGit">
-                <h2 class="sectionGit-h2">project:</h2>
-                <p class="title sectionGit-p name-js">in progress</p>
-              </section>
-              <section class="sectionGit">
-                <h2 class="sectionGit-h2">description:</h2>
-                <p class="description sectionGit-p description-js">
-                  in progress
-                </p>
-              </section>
-            </div>
-            <div class="wrap2">
-              <section class="sectionGit">
-                <h2 class="sectionGit-h2">demo:</h2>
-                <a class="link sectionGit-p demo-js" href="">see here</a>
-              </section>
-              <section class="sectionGit">
-                <h2 class="sectionGit-h2">github:</h2>
-                <a class="link sectionGit-p src-js" href="">source code </a>
-              </section>
-            </div>
-          </div>
-        </article>
-      </section>
+      <section class="sectionThree sectionThree-js"></section>
     </section>
-    <footer class="footer">
+    <footer id="contactMe" class="footer">
       <section class="sectionFour">
         <article class="sectionFour__article">
           <h1 class="sectionFour__article-h1">Contact me</h1>
