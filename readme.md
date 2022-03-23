@@ -1,4 +1,4 @@
-![cover](https://kilerynka.github.io/og.jpg)
+![cover](https://github.com/kilerynka/portfolioJZ/blob/master/public/og.jpg)
 
 # Jakub Zakrzewicz
 
