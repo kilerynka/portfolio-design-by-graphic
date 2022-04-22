@@ -6,7 +6,6 @@ fetch("https://api.github.com/users/kilerynka/repos")
     const container = document.querySelector(".sectionThree-js");
     for (let repo of resp) {
       const { name, html_url, description, homepage } = repo;
-      console.log(resp);
       const template = `<article class="sectionThree__article">
 <div class="sectionThree__article-div">
   <div class="threeDots"></div>
